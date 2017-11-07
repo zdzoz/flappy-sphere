@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour {
 
 	public float jumpHeight;
 	private Rigidbody2D rb;
-	public float maxSpeed;
 	private int points = 0;
 	public Text score;
 	public static bool isGameOver = false;
@@ -19,10 +18,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Update(){
 		if (isGameOver) EndGame ();
-	}
-
-	void FixedUpdate () {
-		if (Input.GetButtonDown("Jump") && rb.velocity.y < maxSpeed){
+		if (Input.GetButtonDown("Jump")){
 			rb.velocity = new Vector2(0, 0);
 			rb.AddForce (new Vector2 (0, jumpHeight));
 		}
