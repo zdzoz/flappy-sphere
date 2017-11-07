@@ -15,6 +15,9 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+        Screen.SetResolution(270, 480, false);
+
 		btn_start.onClick.AddListener (startGame);
 		btn_controls.onClick.AddListener (controls);
 		btn_about.onClick.AddListener (about);

@@ -7,7 +7,11 @@ PlayerSettings:
   productGUID: 24511535569274b03abd4192d8ebf4b0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
+<<<<<<< HEAD
   defaultScreenOrientation: 4
+=======
+  defaultScreenOrientation: 0
+>>>>>>> e7d8490a6bdd7308980fa5405822f4358773d758
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -41,10 +45,10 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidth: 270
+  defaultScreenHeight: 480
+  defaultScreenWidthWeb: 540
+  defaultScreenHeightWeb: 960
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   m_MTRendering: 1
@@ -53,7 +57,7 @@ PlayerSettings:
   androidShowActivityIndicatorOnLoading: -1
   tizenShowActivityIndicatorOnLoading: -1
   iosAppInBackgroundBehavior: 0
-  displayResolutionDialog: 1
+  displayResolutionDialog: 0
   iosAllowHTTPDownload: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -63,16 +67,22 @@ PlayerSettings:
   use32BitDisplayBuffer: 1
   disableDepthAndStencilBuffers: 0
   androidBlitType: 0
+<<<<<<< HEAD
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+=======
+  defaultIsFullScreen: 0
+  defaultIsNativeResolution: 0
+  macRetinaSupport: 0
+>>>>>>> e7d8490a6bdd7308980fa5405822f4358773d758
   runInBackground: 0
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
   submitAnalytics: 1
-  usePlayerLog: 1
+  usePlayerLog: 0
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   resizableWindow: 0
@@ -86,11 +96,11 @@ PlayerSettings:
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
   visibleInBackground: 1
-  allowFullscreenSwitch: 1
+  allowFullscreenSwitch: 0
   graphicsJobMode: 0
-  macFullscreenMode: 2
-  d3d9FullscreenMode: 1
-  d3d11FullscreenMode: 1
+  macFullscreenMode: 1
+  d3d9FullscreenMode: 0
+  d3d11FullscreenMode: 0
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -118,11 +128,11 @@ PlayerSettings:
   wiiUAllowScreenCapture: 1
   wiiUControllerCount: 0
   m_SupportedAspectRatios:
-    4:3: 1
-    5:4: 1
-    16:10: 1
-    16:9: 1
-    Others: 1
+    4:3: 0
+    5:4: 0
+    16:10: 0
+    16:9: 0
+    Others: 0
   bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
@@ -174,7 +184,7 @@ PlayerSettings:
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
-  uIStatusBarHidden: 1
+  uIStatusBarHidden: 0
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
   iPhoneSplashScreen: {fileID: 0}
