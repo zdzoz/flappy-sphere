@@ -1,7 +1,3 @@
 # Flappy Sphere
 
-Play at:
-
-```
-https://zdzoz.github.io/flappy-sphere/
-```
+[Play Here!](https://zdzoz.github.io/flappy-sphere/)
